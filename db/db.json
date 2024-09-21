@@ -1,0 +1,9 @@
+{
+    "resturant": [
+      { "id": "1", "name": "a title", "author": "samit1" },
+      { "id": "2", "name": "another title", "author": "Samit2" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
