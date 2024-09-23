@@ -1,9 +1,28 @@
 {
-    "resturant": [
-      { "id": "1", "name": "a title", "author": "samit1" },
-      { "id": "2", "name": "another title", "author": "Samit2" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "resturant": [
+    {
+      "id": "1",
+      "name": "a title",
+      "author": "samit1",
+      "email": "samitsaha99@gmail.com"
+    },
+    {
+      "id": "2",
+      "name": "another title 1",
+      "author": "Samit2",
+      "email": "samitsaha991@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "another title 2",
+      "author": "Samit3",
+      "email": "samitsaha992@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "another title 3",
+      "author": "Samit4",
+      "email": "samitsaha993@gmail.com"
     }
-  }
+  ]
+}
