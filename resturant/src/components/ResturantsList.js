@@ -65,7 +65,7 @@ export class ResturantsList extends Component {
                                                 <td>{item.author}</td>
                                                 <td>{item.email}</td>
                                                 <td><Link to={"/update/" + item.id}><FontAwesomeIcon icon={faEdit} color="orange" /></Link></td>
-                                                <span onClick={() => this.delete(item.id)}><FontAwesomeIcon icon={faTrash} color="red" /></span>
+                                                <td><span onClick={() => this.delete(item.id)}><FontAwesomeIcon icon={faTrash} color="red" /></span></td>
                                             </tr>)
                                     }
                                 </tbody>

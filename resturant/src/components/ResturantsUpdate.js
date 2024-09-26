@@ -47,7 +47,7 @@ export class ResturantsUpdate extends Component {
           <input type="text" onChange={(event) => { this.setState({ email: event.target.value }) }} placeholder="Resturant Email" value={this.state.email} /> <br /> <br />
           <input type="text" onChange={(event) => { this.setState({ author: event.target.value }) }} placeholder="Resturant Author" value={this.state.author} /> <br /> <br />
           <input type="text" onChange={(event) => { this.setState({ id: event.target.value }) }} placeholder="Resturant id" value={this.state.id} /> <br /> <br />
-          <button onClick={() => { this.update() }}>Update Resturant</button>
+          <button onChange={() => { this.update() }}>Update Resturant</button>
         </div>
       </div>
     )
