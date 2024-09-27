@@ -23,7 +23,6 @@ export class ResturantsList extends Component {
         })
     }
     delete(id) {
-        // alert("Delete");
         fetch("http://localhost:3000/resturant/" + id, {
             method: "DELETE"
         }).then((result) => {
