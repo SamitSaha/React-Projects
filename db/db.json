@@ -1,4 +1,8 @@
 {
+  "login": [
+    { "name": "Samit1 Saha", "password": "1234" },
+    { "name": "Samit2 Saha", "password": "1235" }
+  ],
   "resturant": [
     {
       "id": "2",
